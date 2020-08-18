@@ -1,15 +1,15 @@
-"use strict";
+'use strict';
 
 jest.autoMockOff();
-const defineTest = require("jscodeshift/dist/testUtils").defineTest;
+const defineTest = require('jscodeshift/dist/testUtils').defineTest;
 
-describe("request to needle", () => {
+describe('request to needle', () => {
   defineTest(
     __dirname,
-    "transform",
+    'transform',
     null,
-    "typescript",
-    { parser: "ts" },
-    { parser: "ts" }
+    'typescript',
+    { parser: 'ts' },
+    { parser: 'ts' },
   );
 });
