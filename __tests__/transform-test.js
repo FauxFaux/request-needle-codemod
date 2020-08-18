@@ -8,7 +8,7 @@ describe('request to needle', () => {
     __dirname,
     'transform',
     null,
-    'typescript',
+    'promise-full-complex',
     { parser: 'ts' },
     { parser: 'ts' },
   );
